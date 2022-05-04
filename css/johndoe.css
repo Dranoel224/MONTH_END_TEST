@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #00000025;
+}
+
+.container {
+    margin-left: 400px;
+    margin-top: 200px;
+    height: 500px;
+    width: 50%;
+    border: 1px solid darkblue;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: center;
+}
+
+.John-Doe img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 8px;
+    /* display: inline-block; */
+}
+
+.John-Doe strong {
+    display: inline-block;
+}
+
+.img-gal img {
+    height: 250px;
+    width: 330px;
+    margin: 6px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background: navy;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}

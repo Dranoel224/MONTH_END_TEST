@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background: #00000025;
+}
+.myphotos-gal {
+    margin-top: 300px;
+    width: 20%;
+    height: 380px;
+    border: 1px solid darkblue;
+    box-shadow: 1px 2px 3px black .8;
+}
+
+.myphotos-gal h3 {
+    background: navy;
+    height: 30px;
+    width: 100%;
+    color: white;
+}
+
+.myphotos-gal img {
+    /* display: flex; */
+    height: 95px;
+    width: 135px;
+    /* padding: 10px;
+    padding-top: 0;
+    margin-top: 0; */
+}
