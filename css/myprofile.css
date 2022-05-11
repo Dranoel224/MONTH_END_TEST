@@ -12,29 +12,36 @@ body {
     background-color: rgb(2, 2, 87);
     color: white;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-info {
     width: 20%;
-    height: 250px;
+    height: 300px;
     border: 1px solid darkblue;
     box-shadow: 1px 2px 3px black;
     display: block;
     padding: 10px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .profile-info img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     align-items: center;
     border: 2px navy;
     border-radius: 50px;
     display: flex;
     position: relative;
+    margin-left: 80px;
     /* padding-left: 150px; */
 }
 
-.profile-info h3, p {
+.profile-info p {
     padding-left: 50px;
+}
+
+.profile-info h3 {
+    text-align: center;
 }

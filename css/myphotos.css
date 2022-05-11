@@ -1,13 +1,23 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     background: #00000025;
 }
+
 .myphotos-gal {
     margin-top: 300px;
     width: 20%;
-    height: 380px;
+    height: 350px;
     border: 1px solid darkblue;
-    box-shadow: 1px 2px 3px black .8;
+    box-shadow: 1px 2px 3px red .8;
+    border-radius: 4px;
+}
+
+
+.myphotos_images {
+    padding-left: 5px;
 }
 
 .myphotos-gal h3 {
@@ -15,6 +25,9 @@
     height: 30px;
     width: 100%;
     color: white;
+    margin-top: 0;
+    padding-left: 20px;
+    align-items: center;
 }
 
 .myphotos-gal img {

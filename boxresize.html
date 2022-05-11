@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/boxresize.css">
+    <title>AREA CALCULATION</title>
+</head>
+
+<body>
+    <div class="box" id="myBox"></div>
+    <form onsubmit="event.preventDefault()">
+        <input type="number" id="width" placeholder="your box width">
+        <input type="number" id="height" placeholder="your box height">
+        <button onclick='updateInterface()'>Update</button>
+    </form>
+    <script>
+        let box = {
+            width: 100,
+            height: 30,
+            surfacearea: function () {
+                return this.width * this.height
+            },
+            updateSizes: function (newwidth, newheight) {
+                this.width = newwidth;
+                this.height = newheight;
+            }
+            }
+
+        function updateInterface() {
+            //Now I define my box
+            let mybox = document.getElementById('myBox');
+            //Now I define the new sizes of my box
+            let newWidth = document.getElementById('width').value, newHeight = document.getElementById('height').value;
+            //Now I start change the values of my box object 
+            box.updateSizes(newWidth, newHeight)
+            mybox.innerHTML = box.surfacearea()
+            mybox.style.width = box.width + 'px';
+            mybox.style.height = box.height + 'px';
+        }
+    </script>
+</body>
+
+</html>
