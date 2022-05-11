@@ -9,7 +9,7 @@ body {
 .myphotos-gal {
     margin-top: 300px;
     width: 300px;
-    height: 350px;
+    height: 360px;
     border: 1px solid darkblue;
     box-shadow: 1px 2px 3px red .8;
     border-radius: 4px;
@@ -38,7 +38,7 @@ body {
     /* display: flex; */
     height: 95px;
     width: 135px;
-    margin: 2px;
+    margin: 3px;
     /* padding: 10px;
     padding-top: 0;
     margin-top: 0; */
