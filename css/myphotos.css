@@ -8,7 +8,7 @@ body {
 
 .myphotos-gal {
     margin-top: 300px;
-    width: 20%;
+    width: 300px;
     height: 350px;
     border: 1px solid darkblue;
     box-shadow: 1px 2px 3px red .8;
@@ -18,6 +18,10 @@ body {
 
 .myphotos_images {
     padding-left: 5px;
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .myphotos-gal h3 {
@@ -34,6 +38,7 @@ body {
     /* display: flex; */
     height: 95px;
     width: 135px;
+    margin: 2px;
     /* padding: 10px;
     padding-top: 0;
     margin-top: 0; */
